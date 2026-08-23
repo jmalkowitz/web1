@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bunsei 文星 — Japanese-Inspired Burgers in Dali, Cyprus</title>
+<meta name="description" content="Japanese-inspired smashed burgers in Dali, Cyprus. Truffle burger, pulled pork, and more — takeaway from the counter, Tue&ndash;Sat 18:30&ndash;22:00.">
+<meta property="og:site_name" content="Bunsei">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bunsei 文星 — Japanese-Inspired Burgers in Dali, Cyprus">
+<meta property="og:description" content="Japanese-inspired smashed burgers in Dali, Cyprus. Truffle burger, pulled pork, and more — takeaway from the counter, Tue&ndash;Sat 18:30&ndash;22:00.">
+<meta property="og:image" content="assets/bunsei-hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bunsei 文星 — Japanese-Inspired Burgers in Dali, Cyprus">
+<meta name="twitter:description" content="Japanese-inspired smashed burgers in Dali, Cyprus. Truffle burger, pulled pork, and more — takeaway from the counter, Tue&ndash;Sat 18:30&ndash;22:00.">
+<meta name="twitter:image" content="assets/bunsei-hero.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Bunsei",
+  "alternateName": "文星",
+  "image": "assets/bunsei-hero.jpg",
+  "telephone": "+357 22778282",
+  "priceRange": "€6–20",
+  "servesCuisine": ["Burgers", "Japanese Fusion"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Chalkanoros 35b",
+    "addressLocality": "Dali",
+    "postalCode": "2540",
+    "addressCountry": "CY"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 35.018252,
+    "longitude": 33.413033
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "opens": "18:30",
+    "closes": "22:00"
+  },
+  "acceptsReservations": false,
+  "hasMenu": "#board",
+  "sameAs": ["https://www.facebook.com/p/Bunsei-61590447338813/"]
+}
+</script>
+<link rel="stylesheet" href="styles.css?v=26">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&family=Noto+Sans+JP:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; text-wrap: pretty; background: var(--color-text); color: var(--color-text); font-family: var(--font-body); }
+  a { color: var(--color-accent-700); text-decoration: none; }
+  a:hover { color: var(--color-accent); }
+  ::selection { background: var(--color-accent-200); }
+  :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+
+  /* — page frame: fixed to the viewport, stays put on scroll — */
+  .page-frame {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    pointer-events: none;
+    border: clamp(8px, 1.4vw, 18px) solid var(--color-text);
+  }
+</style>
+</head>
+<body>
+
+<div class="page-frame" aria-hidden="true"></div>
+
+<div style="background: var(--color-text); min-height: 100vh; overflow-x: hidden;">
+
+  <nav class="nav" style="position: sticky; top: 0; z-index: 20; background: var(--color-text); color: var(--color-accent); border-bottom: 2px solid var(--color-accent); padding: 12px clamp(16px, 4vw, 56px); display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px; font-family: 'Space Mono', ui-monospace, 'SF Mono', Consolas, monospace;">
+    <div class="nav-links" style="grid-column: 1; display: flex; gap: 22px; align-items: center; text-transform: uppercase; letter-spacing: 0.04em;">
+      <a href="#board">Board</a>
+      <a href="#story">Story</a>
+      <a href="#visit">Visit</a>
+    </div>
+    <span class="nav-brand impact" style="grid-column: 2; justify-self: center; margin: 0; font-family: 'Space Mono', ui-monospace, 'SF Mono', Consolas, monospace; font-weight: 700; font-size: 18px; letter-spacing: 0.03em; text-transform: uppercase; display: flex; align-items: baseline; gap: 10px;"><img src="assets/bunsei-logo.jpg" alt="" aria-hidden="true" style="width: 24px; height: 24px; align-self: center; display: block; flex: none; filter: saturate(2.3);">Bunsei<span style="font-family: 'Noto Sans JP', var(--font-body); font-weight: 900; font-size: 15px; letter-spacing: normal; text-transform: none;">文星</span></span>
+    <a class="nav-badge" href="#visit" style="grid-column: 3; justify-self: end; display: flex; align-items: center; gap: 9px; font-size: 12.5px; white-space: nowrap;">
+      <span class="led-dot" aria-hidden="true" style="width: 6px; height: 6px; border-radius: 50%; background: var(--color-accent); box-shadow: 0 0 6px var(--color-accent); flex: none;"></span>
+      TUE&ndash;SAT&nbsp; 18:30&ndash;22:00
+    </a>
+  </nav>
+
+  <div style="max-width: 1240px; margin: 0 auto; padding: clamp(16px, 4vw, 40px) clamp(16px, 4vw, 56px) 0;">
+
+    <section aria-label="Bunsei" style="display: grid; grid-template-columns: minmax(0, 2.1fr) minmax(150px, 0.7fr); grid-template-areas: 'head mark' 'shot mark'; gap: 14px;">
+      <div class="reveal" style="grid-area: head; border: 2px solid var(--color-text); background: var(--color-text); color: var(--color-bg); position: relative; padding: clamp(28px, 4.4vw, 56px); z-index: 2;">
+        <div aria-hidden="true" style="position: absolute; inset: 0; overflow: hidden; pointer-events: none;">
+          <div class="speedlines" style="position: absolute; inset: -60% -20% auto auto; width: 150%; aspect-ratio: 1; opacity: 0.16; background: repeating-conic-gradient(from 0deg at 78% 22%, var(--color-bg) 0deg 0.55deg, transparent 0.55deg 3.4deg);"></div>
+        </div>
+        <p style="position: relative; font-size: 13px; line-height: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-accent); margin: 0 0 24px;">Dali, Cyprus &nbsp;/&nbsp; 第一話</p>
+        <h1 style="position: relative; font-family: var(--font-heading); font-weight: 800; font-size: clamp(44px, 7vw, 96px); line-height: 0.98; letter-spacing: -0.03em; margin: 0 0 0 -0.055em;">
+          <span style="display: block; color: var(--color-bg);">UMAMI.</span>
+          <span style="display: block; color: var(--color-accent); transform: translateX(clamp(30px, 5.6vw, 80px));">NOTHING LESS.</span>
+        </h1>
+        <p style="position: relative; font-size: 16.5px; line-height: 28px; max-width: 46ch; margin: 32px 0 0; color: color-mix(in srgb, var(--color-bg) 85%, transparent);">A Japanese-inspired burger counter. Smashed patties, buns pressed soft, sauces built like broths — reduced, layered, tasted flat and tasted again. Half six until ten, five nights a week.</p>
+        <div style="position: relative; display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px;">
+          <a class="btn btn-primary" href="#board" style="color: var(--color-bg);">Read the board</a>
+          <a class="btn btn-secondary" href="#visit" style="border-color: var(--color-bg); color: var(--color-bg);">Find the counter</a>
+        </div>
+      </div>
+
+      <figure class="reveal" aria-label="BUNSEI" style="grid-area: mark; margin: 0; border: 2px solid var(--color-text); background: var(--color-bg); min-height: 320px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; padding: 28px 10px; position: relative; overflow: hidden; transition-delay: 0.1s; container-type: inline-size;">
+        <div aria-hidden="true" class="bunsei-word" style="position: relative; display: flex; flex-direction: column; font-family: var(--font-heading); font-weight: 800; letter-spacing: -0.03em; font-size: clamp(48px, 78cqw, 150px); line-height: 0.95; color: color-mix(in srgb, var(--color-accent) 18%, var(--color-bg) 82%); text-align: center; text-shadow: none; flex: none;">
+          <span class="ltr-1">B</span><span class="ltr-2">U</span><span class="ltr-3">N</span>
+        </div>
+
+        <div class="sundisc" aria-hidden="true" style="position: relative; width: 55%; aspect-ratio: 1; max-width: 190px; border-radius: 50%; background: var(--color-accent); overflow: hidden; flex: none; box-shadow: 0 0 24px var(--color-accent);">
+          <img src="assets/bunsei-logo.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(2.3);">
+        </div>
+
+        <div aria-hidden="true" class="bunsei-word" style="position: relative; display: flex; flex-direction: column; font-family: var(--font-heading); font-weight: 800; letter-spacing: -0.03em; font-size: clamp(48px, 78cqw, 150px); line-height: 0.95; color: color-mix(in srgb, var(--color-accent) 18%, var(--color-bg) 82%); text-align: center; text-shadow: none; flex: none;">
+          <span class="ltr-4">S</span><span class="ltr-5">E</span><span class="ltr-6">I</span>
+        </div>
+
+        <div class="scanlines" aria-hidden="true" style="position: absolute; inset: 0; opacity: 0.07; background: repeating-linear-gradient(0deg, var(--color-text) 0px, var(--color-text) 1px, transparent 1px, transparent 3px); pointer-events: none;"></div>
+      </figure>
+
+      <figure class="reveal" style="grid-area: shot; margin: 0; border: 2px solid var(--color-text); position: relative; transition-delay: 0.2s;">
+        <img src="assets/bunsei-hero.jpg" alt="The Bunsei storefront at night, glowing cube sign lit above the entrance" style="width: 100%; height: clamp(240px, 34vw, 420px); object-fit: cover; display: block;">
+        <figcaption style="position: absolute; left: 0; bottom: 0; background: var(--color-text); color: var(--color-bg); font-size: 12px; line-height: 14px; letter-spacing: 0.14em; text-transform: uppercase; padding: 9px 14px;">Panel 01 &nbsp;/&nbsp; ガブッ</figcaption>
+      </figure>
+    </section>
+
+    <section aria-label="Bunsei in short" class="reveal" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); border: 2px solid var(--color-text); border-bottom: 0; background: var(--color-bg); margin-top: 14px;">
+      <div style="border-bottom: 2px solid var(--color-text); padding: 22px clamp(16px, 2vw, 26px);">
+        <p style="font-family: 'Noto Sans JP', var(--font-body); font-weight: 900; font-size: 40px; line-height: 48px; color: var(--color-accent); margin: 0;">二</p>
+        <p style="font-size: 12.5px; line-height: 18px; letter-spacing: 0.1em; text-transform: uppercase; margin: 10px 0 0;">Sandwiches on the board</p>
+      </div>
+      <div style="border-bottom: 2px solid var(--color-text); border-left: 2px solid var(--color-text); padding: 22px clamp(16px, 2vw, 26px);">
+        <p style="font-family: var(--font-heading); font-weight: 800; font-size: 40px; line-height: 48px; color: var(--color-accent); margin: 0 0 0 -0.04em;">18:30</p>
+        <p style="font-size: 12.5px; line-height: 18px; letter-spacing: 0.1em; text-transform: uppercase; margin: 10px 0 0;">Doors, five nights a week</p>
+      </div>
+      <div style="border-bottom: 2px solid var(--color-text); border-left: 2px solid var(--color-text); padding: 22px clamp(16px, 2vw, 26px);">
+        <p style="font-family: 'Noto Sans JP', var(--font-body); font-weight: 900; font-size: 40px; line-height: 48px; color: var(--color-accent); margin: 0;">火〜土</p>
+        <p style="font-size: 12.5px; line-height: 18px; letter-spacing: 0.1em; text-transform: uppercase; margin: 10px 0 0;">Tuesday to Saturday</p>
+      </div>
+      <div style="border-bottom: 2px solid var(--color-text); border-left: 2px solid var(--color-text); padding: 22px clamp(16px, 2vw, 26px);">
+        <p style="font-family: 'Noto Sans JP', var(--font-body); font-weight: 900; font-size: 40px; line-height: 48px; color: var(--color-accent); margin: 0;">零</p>
+        <p style="font-size: 12.5px; line-height: 18px; letter-spacing: 0.1em; text-transform: uppercase; margin: 10px 0 0;">Things we can't explain</p>
+      </div>
+    </section>
+
+    <section id="board" style="padding: clamp(56px, 7vw, 96px) 0 0;">
+      <div class="reveal board-beat" style="display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 12px 24px; border-bottom: 2px solid var(--color-text); padding-bottom: 16px;">
+        <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(30px, 3.8vw, 46px); line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 0 -0.04em; color: var(--color-bg);">THE BOARD</h2>
+        <p style="font-family: 'Noto Sans JP', var(--font-body); font-weight: 700; font-size: 15px; letter-spacing: 0.16em; margin: 0; color: var(--color-accent);">お品書き &nbsp;→&nbsp; read right to left</p>
+      </div>
+      <p class="reveal board-beat" style="font-size: 15.5px; line-height: 28px; max-width: 54ch; margin: 24px 0 clamp(28px, 4vw, 44px); color: color-mix(in srgb, var(--color-bg) 82%, transparent); transition-delay: 0.12s;">A short board is a decision, not a limitation. Both of these have been cooked several hundred times before they reached you. Takeaway from the counter, or eat where you stand.</p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px;">
+        <article class="reveal board-beat" style="border: 2px solid var(--color-text); background: var(--color-bg); display: flex; flex-direction: column; transition-delay: 0.24s;">
+          <div style="margin: 18px 18px 6px; position: relative; transform: rotate(-2.4deg); box-shadow: 6px 6px 0 var(--color-text);">
+            <div aria-hidden="true" style="position: absolute; top: -12px; left: 28px; width: 84px; height: 24px; background: color-mix(in srgb, var(--color-bg) 45%, transparent); border: 1px solid color-mix(in srgb, var(--color-bg) 60%, transparent); transform: rotate(-7deg); z-index: 2;"></div>
+            <figure style="margin: 0; border: 2px solid var(--color-text); background: var(--color-bg); position: relative; overflow: hidden; clip-path: polygon(0 0, 88% 0, 100% 11%, 100% 100%, 0 100%);">
+              <img src="assets/bunsei-b1.jpg" alt="Bunsei's Truffle Burger, cross-section" style="width: 100%; aspect-ratio: 5 / 4; object-fit: cover; display: block;">
+              <span style="position: absolute; top: 0; left: 0; background: var(--color-accent); color: var(--color-bg); font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 1; padding: 11px 14px;">01</span>
+              <span class="impact" style="position: absolute; right: 12px; bottom: 12px; font-family: 'Noto Sans JP', var(--font-body); font-weight: 900; font-size: clamp(28px, 4vw, 46px); line-height: 1; color: var(--color-bg); letter-spacing: 0.04em; text-shadow: 2px 2px 0 var(--color-text), -2px 2px 0 var(--color-text), 2px -2px 0 var(--color-text), -2px -2px 0 var(--color-text);">ジュウウ</span>
+            </figure>
+          </div>
+          <div style="padding: clamp(20px, 2.6vw, 30px); display: flex; flex-direction: column; gap: 10px; flex: 1;">
+            <p style="font-family: 'Noto Sans JP', var(--font-body); font-weight: 700; font-size: 14px; letter-spacing: 0.14em; margin: 0; color: var(--color-accent-700);">トリュフバーガー</p>
+            <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(24px, 2.6vw, 32px); line-height: 1.1; letter-spacing: -0.02em; margin: 0;">Truffle Burger</h3>
+            <p style="font-size: 15.5px; line-height: 27px; margin: 0; color: color-mix(in srgb, var(--color-text) 78%, transparent);">Smashed beef, cheese taken well past the point of politeness, truffle folded through the sauce. The pull in the photographs is this one.</p>
+          </div>
+        </article>
+
+        <article class="reveal board-beat" style="border: 2px solid var(--color-text); background: var(--color-bg); display: flex; flex-direction: column; transition-delay: 0.36s;">
+          <div style="margin: 18px 18px 6px; position: relative; transform: rotate(2deg); box-shadow: 6px 6px 0 var(--color-text);">
+            <div aria-hidden="true" style="position: absolute; top: -12px; right: 32px; width: 84px; height: 24px; background: color-mix(in srgb, var(--color-bg) 45%, transparent); border: 1px solid color-mix(in srgb, var(--color-bg) 60%, transparent); transform: rotate(5deg); z-index: 2;"></div>
+            <figure style="margin: 0; border: 2px solid var(--color-text); background: var(--color-bg); position: relative; overflow: hidden; clip-path: polygon(0 0, 88% 0, 100% 11%, 100% 100%, 0 100%);">
+              <img src="assets/bunsei-b2.jpg" alt="Bunsei's Pulled Pork Sandwich, cross-section" style="width: 100%; aspect-ratio: 5 / 4; object-fit: cover; display: block;">
+              <span style="position: absolute; top: 0; left: 0; background: var(--color-accent); color: var(--color-bg); font-family: var(--font-heading); font-weight: 800; font-size: 15px; line-height: 1; padding: 11px 14px;">02</span>
+              <span class="impact" style="position: absolute; right: 12px; bottom: 12px; font-family: 'Noto Sans JP', var(--font-body); font-weight: 900; font-size: clamp(28px, 4vw, 46px); line-height: 1; color: var(--color-bg); letter-spacing: 0.04em; text-shadow: 2px 2px 0 var(--color-text), -2px 2px 0 var(--color-text), 2px -2px 0 var(--color-text), -2px -2px 0 var(--color-text);">ホロッ</span>
+            </figure>
+          </div>
+          <div style="padding: clamp(20px, 2.6vw, 30px); display: flex; flex-direction: column; gap: 10px; flex: 1;">
+            <p style="font-family: 'Noto Sans JP', var(--font-body); font-weight: 700; font-size: 14px; letter-spacing: 0.14em; margin: 0; color: var(--color-accent-700);">プルドポークサンド</p>
+            <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(24px, 2.6vw, 32px); line-height: 1.1; letter-spacing: -0.02em; margin: 0;">Pulled Pork Sandwich</h3>
+            <p style="font-size: 15.5px; line-height: 27px; margin: 0; color: color-mix(in srgb, var(--color-text) 78%, transparent);">Shoulder cooked long, pulled coarse, glazed sweet-savoury and stacked high in slices of Japanese inspired milk-bread. Sharp pickle to cut it.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-label="Coming soon" class="reveal" style="margin-top: 14px; border: 2px solid var(--color-text); background: var(--color-accent); color: var(--color-bg); display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); align-items: stretch;">
+      <div style="position: relative; overflow: hidden; padding: clamp(28px, 4vw, 52px);">
+        <div class="speedlines" aria-hidden="true" style="position: absolute; inset: -40% -40% -40% auto; width: 130%; opacity: 0.28; background: repeating-conic-gradient(from 0deg at 100% 50%, var(--color-bg) 0deg 0.5deg, transparent 0.5deg 3.2deg); pointer-events: none;"></div>
+        <p style="position: relative; font-size: 12.5px; line-height: 14px; letter-spacing: 0.14em; text-transform: uppercase; margin: 0 0 20px;">Next episode &nbsp;/&nbsp; 次回予告</p>
+        <h3 style="position: relative; font-family: var(--font-heading); font-weight: 800; font-size: clamp(38px, 5.4vw, 68px); line-height: 0.98; letter-spacing: -0.03em; margin: 0 0 14px -0.05em;">CRUNCH&#8209;K</h3>
+        <p style="position: relative; font-family: 'Noto Sans JP', var(--font-body); font-weight: 900; font-size: clamp(20px, 2.4vw, 28px); line-height: 1.3; letter-spacing: 0.06em; margin: 0 0 18px;"><span class="impact">カリカリ唐揚げ</span></p>
+        <p style="position: relative; font-size: 15.5px; line-height: 27px; margin: 0; max-width: 38ch;">Karaage, double-fried and loud about it, in a sandwich. Landing on the board shortly.</p>
+      </div>
+      <figure style="margin: 0; border-left: 2px solid var(--color-text); min-height: 240px;">
+        <img src="assets/bunsei-crunchk.jpg" alt="Bunsei's CRUNCH-K karaage sandwich" style="width: 100%; height: 100%; min-height: 240px; object-fit: cover; display: block;">
+      </figure>
+    </section>
+
+    <section id="story" style="padding: clamp(56px, 7vw, 96px) 0 0; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(240px, 1fr); gap: 14px; align-items: stretch;">
+      <div class="reveal" style="border: 2px solid var(--color-text); background: var(--color-bg); padding: clamp(28px, 4vw, 52px); display: flex; gap: clamp(20px, 3vw, 40px);">
+        <p style="font-family: 'Noto Sans JP', var(--font-body); font-weight: 900; writing-mode: vertical-rl; font-size: clamp(20px, 2.2vw, 26px); letter-spacing: 0.24em; margin: 0; color: var(--color-accent); flex: none;">丁寧に作る</p>
+        <div>
+          <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(26px, 3.2vw, 38px); line-height: 1.08; letter-spacing: -0.02em; margin: 0;">Made with care.<br>Served with purpose.</h2>
+          <p style="font-size: 15.5px; line-height: 28px; margin: 24px 0 0; max-width: 48ch; color: color-mix(in srgb, var(--color-text) 78%, transparent);">Bunsei began with an argument about depth. A burger can be enormous and still taste of very little; a bowl of dashi can be almost clear and taste of everything. We wanted the second thing in the shape of the first.</p>
+          <p style="font-size: 15.5px; line-height: 28px; margin: 22px 0 0; max-width: 48ch; color: color-mix(in srgb, var(--color-text) 78%, transparent);">So the sauces are reduced and layered until they read savoury all the way through, and the buns are pressed soft enough to give way in one hand. Nothing on the board is there for decoration.</p>
+          <p style="font-family: var(--font-heading); font-weight: 800; font-size: 17px; line-height: 28px; margin: 24px 0 0; color: var(--color-accent-700);">Umami. Nothing less.</p>
+        </div>
+      </div>
+      <div class="reveal" style="margin: 0; border: 2px solid var(--color-text); background: var(--color-text); color: var(--color-bg); padding: clamp(28px, 4vw, 44px); display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; transition-delay: 0.12s;">
+        <div class="speedlines" aria-hidden="true" style="position: absolute; inset: -15%; opacity: 0.14; background: repeating-conic-gradient(from 0deg at 50% 50%, var(--color-bg) 0deg 0.55deg, transparent 0.55deg 3.4deg); pointer-events: none;"></div>
+        <p style="position: relative; font-family: 'Noto Sans JP', var(--font-body); font-weight: 900; font-size: clamp(40px, 5vw, 60px); line-height: 1; letter-spacing: 0.04em; margin: 0 0 4px; color: var(--color-accent);">旨味</p>
+        <p style="position: relative; font-size: 12.5px; line-height: 14px; letter-spacing: 0.14em; text-transform: uppercase; margin: 0 0 22px; color: color-mix(in srgb, var(--color-bg) 70%, transparent);">Umami &nbsp;/&nbsp; The Fifth Taste</p>
+        <p style="position: relative; font-size: 15px; line-height: 26px; margin: 0; max-width: 42ch; color: color-mix(in srgb, var(--color-bg) 88%, transparent);">Identified in 1908 by chemist Kikunae Ikeda, who isolated glutamate from kombu broth and gave savouriness a name of its own — the taste that sits under sweet, sour, salty and bitter, the reason a good dashi tastes like more than salt water.</p>
+        <p style="position: relative; font-size: 15px; line-height: 26px; margin: 18px 0 0; max-width: 42ch; color: color-mix(in srgb, var(--color-bg) 88%, transparent);">At Bunsei it isn't a garnish, it's the method: sauces reduced until they carry weight alone, cheese pushed past where most kitchens stop, broths built the patient way dashi is built. Every sandwich on the board is umami approached from a different direction.</p>
+      </div>
+    </section>
+
+    <section id="visit" style="padding: clamp(56px, 7vw, 96px) 0 0;">
+      <div class="reveal" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); border: 2px solid var(--color-text); background: var(--color-bg);">
+        <div style="padding: clamp(24px, 3vw, 40px);">
+          <p style="font-size: 12.5px; line-height: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 20px;">Hours &nbsp;/&nbsp; 営業時間</p>
+          <table class="table">
+            <tbody>
+              <tr><td style="width: 48%;">Tuesday &ndash; Saturday</td><td>18:30 &ndash; 22:00</td></tr>
+              <tr><td>Sunday &ndash; Monday</td><td>Closed</td></tr>
+            </tbody>
+          </table>
+          <p style="font-size: 12.5px; line-height: 18px; letter-spacing: 0.1em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin: 18px 0 0;">Takeaway from the counter &mdash; no bookings</p>
+        </div>
+        <div style="padding: clamp(24px, 3vw, 40px); border-left: 2px solid var(--color-text);">
+          <p style="font-size: 12.5px; line-height: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 20px;">Finding us &nbsp;/&nbsp; 場所</p>
+          <p style="font-family: var(--font-heading); font-weight: 800; font-size: 22px; line-height: 30px; letter-spacing: -0.01em; margin: 0;">Chalkanoros 35b<br>Dali District, 2540<br>Cyprus</p>
+          <div style="display: grid; gap: 4px; margin-top: 22px; font-size: 15.5px; line-height: 28px;">
+            <a href="https://maps.google.com/?q=Chalkanoros+35b,+Dali,+Cyprus" target="_blank" rel="noopener">Open in Maps</a>
+            <a href="https://www.facebook.com/p/Bunsei-61590447338813/" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section style="margin-top: clamp(56px, 7vw, 96px); border-top: 2px solid var(--color-text); background: var(--color-accent); color: var(--color-bg); position: relative; overflow: hidden;">
+    <div class="speedlines" aria-hidden="true" style="position: absolute; inset: -50% auto -50% -10%; width: 70%; opacity: 0.26; background: repeating-conic-gradient(from 0deg at 20% 50%, var(--color-bg) 0deg 0.5deg, transparent 0.5deg 3deg); pointer-events: none;"></div>
+    <div style="position: relative; max-width: 1240px; margin: 0 auto; padding: clamp(56px, 7vw, 92px) clamp(16px, 4vw, 56px);">
+      <p style="font-family: 'Noto Sans JP', var(--font-body); font-weight: 900; font-size: clamp(44px, 8vw, 104px); line-height: 1; letter-spacing: 0.02em; margin: 0 0 18px;"><span class="impact">ガブッ</span></p>
+      <h3 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(30px, 4.4vw, 60px); line-height: 1.02; letter-spacing: -0.025em; margin: 0 0 0 -0.05em;">
+        <span style="display: block;">HALF SIX IN THE EVENING.</span>
+        <span style="display: block;">CHALKANOROS 35B.</span>
+      </h3>
+      <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 36px; align-items: center;">
+        <a class="btn" href="https://maps.google.com/?q=Chalkanoros+35b,+Dali,+Cyprus" target="_blank" rel="noopener" style="color: var(--color-bg); border: 2px solid var(--color-bg); padding: 10px 18px;">Open in Maps</a>
+        <p style="font-size: 15.5px; line-height: 28px; margin: 0; max-width: 40ch;">Tuesday to Saturday, 18:30 until 22:00 or until the board is done.</p>
+      </div>
+    </div>
+  </section>
+
+  <div style="max-width: 1240px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 56px);">
+    <footer style="display: flex; flex-wrap: wrap; gap: 8px 28px; justify-content: space-between; padding: 40px 0; font-size: 12.5px; line-height: 24px; color: color-mix(in srgb, var(--color-bg) 70%, transparent);">
+      <span>Bunsei 文星 &middot; Japanese-inspired burgers &middot; Dali, Cyprus</span>
+      <span>&copy; 2026 Bunsei</span>
+    </footer>
+  </div>
+</div>
+
+<script>
+(function () {
+  var targets = document.querySelectorAll('.reveal:not(.board-beat), .impact');
+  var boardSection = document.getElementById('board');
+  var boardBeats = boardSection.querySelectorAll('.board-beat');
+  if (!('IntersectionObserver' in window)) {
+    targets.forEach(function (el) { el.classList.add('is-visible'); });
+    boardBeats.forEach(function (el) { el.classList.add('is-visible'); });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2, rootMargin: '0px 0px -8% 0px' });
+  targets.forEach(function (el) { io.observe(el); });
+
+  // board section: beats stay hidden until the section arrives, then
+  // unfold together — their staggered transition-delay does the sequencing
+  var boardIo = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        boardBeats.forEach(function (el) { el.classList.add('is-visible'); });
+        boardIo.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
+  boardIo.observe(boardSection);
+})();
+</script>
+</body>
+</html>
